@@ -25,4 +25,4 @@
 
 8. Tests for App.tsx and WeatherBox.tsx added.
 
-9. eslint checking command added (for 2 rules - 2 tabs indent, no-semi) as example that it works as expected. Run 'npm run lint'
+9. eslint checking command added (for 3 rules - 2 tabs indent, no-semi and no-unused-vars) as example that it works as expected. Run 'npm run lint'

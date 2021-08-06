@@ -30,13 +30,15 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier"
     ],
     "rules": {
       "indent": [
         "error",
         2
       ],
+      "no-unused-vars": "warn",
       "semi": [
         "error",
         "never"
@@ -55,5 +57,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  }
 }
