@@ -55,7 +55,7 @@ export const App = () => {
       )
 
       setResults({
-        temperature: result.data.main.temp,
+        temperature: Math.round(result.data.main.temp),
         description: result.data.weather[0].description,
       })
       setLocation(`${result.data.name}, ${result.data.sys.country}`)
@@ -97,6 +97,7 @@ export const App = () => {
 
       {loading && <Loader />}
       {results && <WeatherBox location={location} weather={results} />}
+      {!results && !loading && <h2>No results :(</h2>}
     </div>
   )
 }

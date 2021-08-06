@@ -4,7 +4,7 @@ import { IWeather } from '../types'
 
 describe('WeatherBox component', () => {
   let mockedWeather: IWeather
-  let mockedLocation = 'Zilina, Slovakia'
+  const mockedLocation = 'Zilina, Slovakia'
 
   beforeEach(() => {
     mockedWeather = { temperature: '20°C', description: 'sunny' }

@@ -1,6 +1,6 @@
 export interface IWeather {
   description: string
-  temperature: string
+  temperature: number
 }
 
 export enum Units {
