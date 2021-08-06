@@ -1,8 +1,8 @@
-# React dev interview test
+# React test
 
 ## Instructions
 
-1. Clone or fork this repository and install dependencies.
+1. Clone or fork this repository.
 2. Install dependencies with 'npm install'.
    -- For run - 'npm start'
    -- For lint checking - 'npm run lint'
